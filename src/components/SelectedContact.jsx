@@ -22,6 +22,10 @@ export default function SelectedContact({ selectedContactId, setSelectedContactI
       }
     }, [selectedContactId]);
   
+    const goBackToList = () => {
+        setSelectedContactId(null);
+      };
+      
     return (
       <div>
         {contact ? (
@@ -31,6 +35,7 @@ export default function SelectedContact({ selectedContactId, setSelectedContactI
             <p>Email: {contact.email}</p>
             <p>Phone: {contact.phone}</p>
             {/* Add more details as needed */}
+            <button onClick={goBackToList}>Go Back to List</button>
           </div>
         ) : (
           <p>No contact selected</p>
