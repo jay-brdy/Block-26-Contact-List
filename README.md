@@ -1,3 +1,8 @@
+# Block 26 Contact List
+
+View my deployed site on Netlify [here!](https://jaybrdy-contactlist.netlify.app/)
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
